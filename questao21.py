@@ -11,6 +11,7 @@ def arredondar():
     else:
         pra_menor = floor(num)
         print(F' O Número foi aproximado para {pra_menor} ')
+
 #----------------------------
 
 print('Arredondar Números')
