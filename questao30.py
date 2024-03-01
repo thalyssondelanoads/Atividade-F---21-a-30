@@ -4,7 +4,10 @@ def quadrado_perfeito():
     soma_dezena = dezena1 + dezena2
     potencia = soma_dezena ** 2
     
-    if potencia == num:
+    if num < 1000 or num > 9999:
+        print(' Insira um Número de 4 Dígitos! ')
+    
+    elif potencia == num:
         print(f' O Número {num} Atende a Condição ')
     
     else:
